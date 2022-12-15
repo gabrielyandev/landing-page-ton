@@ -96,7 +96,7 @@ html,body {
     color: var(--color-green);
 }
 
-.active {
+.active-h {
     background-color: var(--color-green);
     color: var(--color-dark4)!important;
     padding: 8px;
@@ -104,7 +104,7 @@ html,body {
     text-align: center;
 }
 
-.active:hover {
+.active-h:hover {
     background-color: var(--color-dark3);
     color: var(--color-green)!important;
 }
@@ -302,7 +302,8 @@ main {
     height: 100px;
     object-fit: cover;
     border-radius: 50%;
-    box-shadow: 2px 1px 3px green;
+    /* box-shadow: 2px 1px 3px green; */
+    border: 1px solid var(--color-green);
 }
 
 .card-social-item {
@@ -371,6 +372,7 @@ main {
     text-decoration: none;
     font-weight: 700;
     font-size: 1rem;
+    border-radius: 16px;
 }
 
 .footer-links a:hover {
@@ -398,6 +400,27 @@ main {
 }
 
 /* fim accordion */
+
+.icon-whatsapp {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 2em;
+    z-index: 999;
+}
+
+.icon-whatsapp img {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 2px 1px 3px green;
+    transition: all 0.5s;
+}
+
+.icon-whatsapp img:hover {
+    transform: rotate(360deg);
+}
 
 @media screen and (min-width: 320px) and (max-width: 980px) {
     .btn_icon_header {

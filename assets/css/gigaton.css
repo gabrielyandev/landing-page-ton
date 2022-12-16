@@ -161,6 +161,9 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    border: 1px solid var(--color-green);
+    border-radius: 16px;
+    padding: 1em;
 }
 
 .grupo-maquiniha {
@@ -182,6 +185,12 @@ body {
     margin: 1em 0;
 }
 
+.card-maquininha-titulo h3 {
+    text-decoration: line-through;
+    color: var(--primary-color);
+    font-size: 1rem;
+}
+
 .card-maquininha-descricao {
     width: 300px;
     text-align: center;
@@ -190,6 +199,7 @@ body {
     color: var(--primary-color);
     margin: 1em 0;
 }
+
 /* fim card maquininha */
 
 /* botão pedir */

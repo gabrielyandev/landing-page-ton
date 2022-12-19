@@ -112,7 +112,8 @@ html,body {
 body {
     font-family: 'Poppins', sans-serif;
     height: 100vh;
-    background-color: #171717;
+    /* background-color: #171717; */
+    background-color: var(--primary-color);
 }
 
 .frete-gratis {

@@ -425,11 +425,33 @@ main {
     transform: rotate(360deg);
 }
 
+.titulo-app {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    color: #1DD32E;
+    background-color: var(--color-dark6);
+    width: 100%;
+    padding: 1em;
+    margin-top: 10px;
+    text-align: center;
+    border-top: 2px solid var(--color-green);
+    border-bottom: 2px solid var(--color-green);
+}
+
+.titulo-app p {
+    font-size: 1rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
 .app-ton {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: var(--color-dark6);
 }
 
 .app-items {
@@ -442,11 +464,36 @@ main {
     gap: 1rem;
 }
 
-.app-ton-links {
+.descricao-app {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.descricao-app p {
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.app-ton-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2rem;
+    align-items: center;
+    background-color: var(--primary-color);
+    width: 100%;
+}
+
+.app-ton-links img {
+    width: 100px;
 }
 
 @media screen and (min-width: 320px) and (max-width: 980px) {

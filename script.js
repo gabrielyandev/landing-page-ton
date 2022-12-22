@@ -3,6 +3,10 @@ var navigationHeader = document.getElementById('navigation_header');
 var content = document.getElementById('content');
 var showSidebar = false;
 
+/* loading page */
+
+/* fim loading page */
+
 function toggleSidebar() {
     showSidebar = !showSidebar;
     if (showSidebar) {

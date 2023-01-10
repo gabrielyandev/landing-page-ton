@@ -121,13 +121,24 @@ body {
 }
 
 main {
-    background-color: var(--color-dark1);
+    background-color: var(--color-dark4);
     color: var(--primary-color);
 }
 
 .content {
     background-color: var(--color-dark1);
     transition: 1s;
+}
+
+marquee {
+    background-color: var(--color-green);
+    color: var(--color-dark6);
+    padding: 1em;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
 
 .btn_icon_header {
